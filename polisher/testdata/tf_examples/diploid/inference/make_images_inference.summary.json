@@ -1,0 +1,17 @@
+{
+ "bam": "/google/src/cloud/marianattestad/train-s2s/google3/learning/genomics/polisher/testdata/HG002.pfda_challenge.grch38.phased.chr20_0-200000.bam",
+ "fasta": "/google/src/cloud/marianattestad/train-s2s/google3/learning/genomics/polisher/testdata/GRCh38_chr20_0_200000.fa",
+ "truth_to_ref": null,
+ "training_mode": false,
+ "region_bed": null,
+ "region": "chr20:0-200000",
+ "output": "/google/src/cloud/marianattestad/train-s2s/google3/learning/genomics/polisher/testdata/tf_examples/diploid/inference/make_images",
+ "cpus": 2,
+ "interval_size": 20000,
+ "interval_counter": 10,
+ "example_counter": 727,
+ "skipped_outside_bed_counter": 0,
+ "skipped_too_few_truth_reads_counter": 0,
+ "skipped_too_many_truth_reads_counter": 0,
+ "skipped_too_many_reads_counter": 0
+}
