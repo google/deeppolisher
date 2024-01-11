@@ -140,7 +140,7 @@ community discussion forum such as [BioStars](https://www.biostars.org/).
 We thank Mira Mastoras, Mobin Asri and Benedict Paten from the Genomics
 Institute at University of California, Santa Cruz for providing critical
 feedback and evaluation on the performance of DeepPolisher. We also thank Mira
-mastoras for the image describing how DeepPolisher works presented in this page.
+Mastoras for the image describing how DeepPolisher works presented in this page.
 
 ## License
 
