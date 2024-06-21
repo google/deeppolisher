@@ -39,7 +39,7 @@ DeepPolisher takes two primary inputs:
 This can be generated with assemblers like [Verkko](https://github.com/marbl/verkko)
 or [HiFiasm](https://github.com/chhylp123/hifiasm).
 * Haplotype-specific PacBio HiFi reads aligned to corresponding to the input
-assembly. This can be generated using HPRC's [PHARAOH pipeline](https://github.com/miramastoras/hpp_production_workflows/blob/master/QC/wdl/workflows/PHARAOH.wdl).
+assembly. This can be generated using HPRC's [PHARAOH pipeline](https://github.com/miramastoras/PHARAOH).
 
 Output:
 
@@ -52,7 +52,7 @@ Currently, DeepPolisher only works on PacBio HiFi assembly and reads.
 
 The current release model of DeepPolisher was trained to polish HG002 HiFiasm
 v0.19.5 diploid assembly generated with PacBio HiFi data. The reads were phased
-with [PHARAOH pipeline](https://github.com/miramastoras/hpp_production_workflows/blob/master/QC/wdl/workflows/PHARAOH.wdl).
+with [PHARAOH pipeline](https://github.com/miramastoras/PHARAOH).
 We took HG002 T2T v0.9 assembly as the truth for maternal and paternal contigs
 and projected high-confidence blocks of genome-in-a-bottle and trained only on
 the regions that can be confidently mapped between assemblies. The current model
